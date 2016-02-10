@@ -1,0 +1,38 @@
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+body {
+  background-color: #5ABFBF;
+}
+
+.container {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1500px;
+}
+
+h2 {
+  position: absolute;
+  font-family: 'Alice', serif;
+  color: #666666;
+  font-size: 36px;
+  margin-top: 145px;
+  margin-left: 550px;
+}
+
+.mastHead {
+  position: absolute;
+  margin-top: 100px;
+  margin-left: 275px;
+}
+
+.map {
+  position: absolute;
+  margin-top: 250px;
+}
