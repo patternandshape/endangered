@@ -21,7 +21,7 @@ h2 {
   position: absolute;
   font-family: 'Alice', serif;
   color: #666666;
-  font-size: 36px;
+  font-size: 38px;
   margin-top: 145px;
   margin-left: 550px;
 }
@@ -35,4 +35,36 @@ h2 {
 .map {
   position: absolute;
   margin-top: 250px;
+}
+
+img[name="animals"] {
+  border: 5px solid rgba(255, 255, 255, .5);
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+
+}
+
+.axolotls:hover p,
+.ocelot:hover p,
+.fennecFox:hover p,
+.sandCat:hover p,
+.wildAss:hover p,
+.ayeAye:hover p,
+.elephant:hover p,
+.redPanda:hover p,
+.pangolin:hover p,
+.penguin:hover p {
+  display: block;
+}
+
+p {
+  border-radius: 3px;
+  display: none;
+  background-color: rgba(255, 255, 255, .5);
+  font-size: 10px;
+  padding: 5px;
+  margin-top: -4.5px;
+  max-width: 135px;
+  max-height: 135px;
+  font-family: sans-serif;
 }
